@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Banklineandroid">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.statement.BankStatementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.statement.BacnkStatementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.welcome.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
