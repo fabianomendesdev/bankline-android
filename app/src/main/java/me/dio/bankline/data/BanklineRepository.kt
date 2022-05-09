@@ -13,7 +13,7 @@ object BanklineRepository {
 
     private val restApi by lazy {
         Retrofit.Builder()
-            .baseUrl("http://localhost:5050/")
+            .baseUrl("http://10.0.2.2:5050/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(BanklineApi::class.java)
